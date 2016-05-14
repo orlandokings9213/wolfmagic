@@ -1,6 +1,6 @@
 class HuntHelp(object):
 	global ffmpeg
-	ffmpeg = 'C:/xamppPHP7/htdocs/wolfmagic.git/trunk/libs/ffmpeg.exe'
+	ffmpeg = 'payth_to_ffmpeg'
 	"""docstring for WolfMagic"""
 	def getExtension(self, file):
 		extension = os.path.splitext(file)[1]
