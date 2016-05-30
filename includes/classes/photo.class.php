@@ -38,6 +38,7 @@
 						break;
 					case 'sepia':
 						$command .= " -sepia-tone $extra ";
+						#exit($command);
 						break;
 					case 'blur':
 						$command .= " $extra ";
@@ -235,7 +236,7 @@
 		}
 
 		function sepia($photo_path, $output, $tone = '80%') {
-			$this->add_magic($photo_path, $output, 'speia', $tone);
+			$this->add_magic($photo_path, $output, 'sepia', $tone);
 		}
 
 		function invert($photo_path, $output) {

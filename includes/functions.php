@@ -1263,7 +1263,7 @@
 
 	function grayscale_photo($photo_path, $output, $unlink = false) {
 		global $imageWolf;
-		return $imageWolf->grayscale($photo_path, $output, $unlink);
+		return $imageWolf->grayscale_photo($photo_path, $output, $unlink);
 	}
 
 	/**
