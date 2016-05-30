@@ -9,7 +9,7 @@ ffmpeg.exe -i small.mp4 -filter_complex "[0:v]crop=200:200:60:30,boxblur=10[fg];
 ffmpeg -i small.mp4 -i http://zdenek-malkus.cz/ramecky/ram33.png -filter_complex "[0:v][1:v] overlay=1:600:enable='between(t,3,6)'" FRAMED.mp4*/
 	require 'includes/common.php';
 	global $wolfMagic, $imageWolf;
-	$maindir = 'C:\xamppPHP7\htdocs\wolf_magic';
+	$maindir = __DIR__;
 	$video = __DIR__.'/lumia.mp4';
 	$v1 = __DIR__.'/witch_hd_main.mp4';
 	$v2 = __DIR__.'/monster.mp4';
@@ -91,11 +91,14 @@ ffmpeg -i small.mp4 -i http://zdenek-malkus.cz/ramecky/ram33.png -filter_complex
 	#$imageWolf->add_nashville($boys, $maindir.'/add_nashville.jpg');
 
 	#pex(youtube_search('bitch', 2));
-	#$paramsa = array('text' => "Amna Mano Bili", 'output' => $maindir.'/mano.jpg', 'color' => 'red', 'font_size' => 30);
+	#$paramsa = array('text' => "Mano Bili", 'output' => $maindir.'/mano.jpg', 'color' => 'red', 'font_size' => 30);
 
 	#$imageWolf->text_image($paramsa)
 	#$wolfMagic->audiox_merge($v1, __DIR__.'/black.mp3', $out);
 	#$wolfMagic->poster_audio(__DIR__.'/black.mp3', __DIR__.'/punk.jpg', __DIR__.'/punked.mp4');
 	#$down->download('https://www.youtube.com/watch?v=vDiETeBC9W8');
-	$youtube->video_exists('Xvbfv378SYo');
+	#$youtube->video_exists('Xvbfv378SYo');
+	$photo_path = 'main.jpg';
+	$output = 'circled.jpg';
+	make_circled($photo_path, $output);
 ?>
