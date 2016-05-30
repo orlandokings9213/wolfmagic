@@ -1950,6 +1950,10 @@ Ex:
     $output = 'edited.png';
     black_fire($photo_path, $output)
 
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/black_fire.jpg)
+
+
 ### hex_fire()
 Adds hex code fire effect to photo
 
@@ -2019,6 +2023,9 @@ Ex:
     $photo_path = 'main.png';
     $output = 'edited.png';
     invert($photo_path, $output)
+
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/invert.jpg)
 
 ### blur_image()
 Blurs an image
