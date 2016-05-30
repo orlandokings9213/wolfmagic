@@ -2002,6 +2002,9 @@ Ex:
     $output = 'edited.png';
     sepia($photo_path, $output, $tone = '80%')
 
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/sepia.jpg)
+
 ### invert()
 Invert an image
 
