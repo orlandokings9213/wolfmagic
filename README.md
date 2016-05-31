@@ -1789,6 +1789,9 @@ Ex:
     $rotate = 90;
     rotate_photo($photo_path, $output, $rotate);
 
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/rotated_90.png)
+
 ### flip_photo()
 Flips a photo in vertical or horizental way
 
@@ -1808,6 +1811,9 @@ Ex:
     $flipto = 'v';
     flip_photo($photo_path, $output);
 
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/flipped_horizental.png)
+
 ### flip_photo_vertical()
 Flips a photo vertically
 
@@ -1822,6 +1828,9 @@ Ex:
     $photo_path = 'main.png';
     $output = 'edited.png';
     flip_photo_vertical($photo_path, $output)
+
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/flipped_vertical.png)
 
 ### flip_photo_horizental()
 Flips a photo horizentally
@@ -1838,6 +1847,10 @@ Ex:
     $photo_path = 'main.png';
     $output = 'edited.png';
     flip_photo_horizental($photo_path, $output)
+    
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/flipped_horizental.png)
+
 
 ### grayscale_photo()
 Adds grayscale effect to a photo
@@ -1872,6 +1885,9 @@ Ex:
     $output = 'edited.png';
     navy($photo_path, $output)
 
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/navy.jpg)
+
 ### fire()
 Adds fire effect to photo in given color
 
@@ -1889,6 +1905,9 @@ Ex:
     $photo_path = 'main.png';
     $output = 'edited.png';
     fire($photo_path, $output);
+    
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/black_fire.jpg)
 
 ### green_fire()
 Adds green fire effect to photo
@@ -1905,6 +1924,9 @@ Ex:
     $output = 'edited.png';
     green_fire($photo_path, $output)
 
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/green_fire.jpg)
+
 ### pink_fire()
 Adds pink fire effect to photo
 
@@ -1920,6 +1942,9 @@ Ex:
     $output = 'edited.png';
     pink_fire($photo_path, $output)
 
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/pink_fire.jpg)
+
 ### orange_fire()
 Adds orange fire effect to photo
 
@@ -1934,6 +1959,9 @@ Ex:
     $photo_path = 'main.png';
     $output = 'edited.png';
     orange_fire($photo_path, $output)
+
+Output:
+![alt tag](https://raw.githubusercontent.com/saqirzzq/wolfmagic/master/demo_data/orage_fire.jpg)
 
 ### black_fire()
 Adds black fire effect to photo
