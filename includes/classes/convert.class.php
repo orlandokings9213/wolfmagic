@@ -1495,6 +1495,15 @@
 			}
 		}
 
+		/**
+		* Hardcodes subtitles into a video
+		* @param : { string } { $video_path } { path of video to edit }
+		* @param : { string } { $output_path } { file to be saved after }
+		* @param : { string } { $sub_file } { path to sutitles file to include }
+		* 
+		* @return : { string } { $output_path } { file saved after }
+		*/
+
 		function hardcode_subtitles($video_path, $output_path, $sub_file) {
 			if ($this->is_video($video_path)) {
 				if ($this->got_ffmpeg()) {
